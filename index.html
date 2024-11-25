@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Organix Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="left-container">
+            <div class="upper-left-container">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img src="./Images/dashboard logo.svg" alt="organix-logo">
+                    </div>
+                    <div class="logo-name">
+                        <p> Organix. </p>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <form class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search" name="search-input">
+                    </form>
+                </div>
+            </div>
+
+            <div class="lower-left-container">
+                <div class="main-menu-container">
+                    <div class="main-menu-text-container">
+                        <p> MAIN MENU </p>
+                    </div>
+                    <div class="main-menu-elements-container">
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Home </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Projects </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-regular fa-calendar"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Calendar </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Team Member </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Analytics </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-regular fa-credit-card"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Wallet </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container task">
+                            <div class="element-icon-container task-icon">
+                                <i class="fa-solid fa-bridge-circle-check"></i>
+                            </div>
+                            <div class="element-text-container task-tag">
+                                <p> Tasks </p>
+                            </div>
+                        </div>
+                        <div class="element-element-container">
+                            <div class="element-icon-container">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="element-text-container">
+                                <p> Mail </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="label-container">
+                    <div class="label-text-container">
+                        <p> LABEL </p>
+                    </div>
+
+                    <div class="label-element-container">
+                        <div class="label-label-container">
+                            <div class="label-status-icon marketing">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="label-text-container">
+                                <p> Marketing </p>
+                            </div>
+                        </div>
+                        <div class="label-label-container">
+                            <div class="label-status-icon development">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="label-text-container">
+                                <p> Development </p>
+                            </div>
+                        </div>
+                        <div class="label-label-container">
+                            <div class="label-status-icon design">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="label-text-container">
+                                <p> Design </p>
+                            </div>
+                        </div>
+                        <div class="label-label-container">
+                            <div class="label-status-icon modelling">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="label-text-container">
+                                <p> 3D Modelling </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="up-right-container">
+                <div class="task-header">
+                    <h1> Tasks </h1>
+                </div>
+                <div class="up-right-second-part">
+                    <div class="add-task-button">
+                        <button> + Add Task </button>
+                    </div>
+                    <div class="notification-icon">
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./Images/avatar.avif" alt="avatar"> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="low-right-container">
+                <div class="first-lower-right">
+                    <div class="first-lower-right-left">
+                        <div class="board-container alte">
+                            <div class="board-icon alte">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="board-text alte">
+                                <p> Board </p>
+                            </div>
+                        </div>
+                        <div class="board-container">
+                            <div class="board-icon">
+                                <i class="fa-regular fa-calendar"></i>
+                            </div>
+                            <div class="board-text">
+                                <p> Calendar </p>
+                            </div>
+                        </div>
+                        <div class="board-container">
+                            <div class="board-icon">
+                                <i class="fa-solid fa-table-columns"></i>
+                            </div>
+                            <div class="board-text">
+                                <p> Table </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="first-lower-right-right">
+                        <div class="board-container">
+                            <div class="board-icon">
+                                <i class="fa-solid fa-filter"></i>
+                            </div>
+                            <div class="board-text">
+                                <p> Filter </p>
+                            </div>
+                        </div>
+                        <div class="board-container">
+                            <div class="board-icon">
+                                <i class="fa-solid fa-sort"></i>
+                            </div>
+                            <div class="board-text">
+                                <p> Sort </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second-lower-right">
+                    <div class="first-card-container">
+                        <div class="to-do-container">
+                            <div class="to-do-text-container">
+                                <p> To - Do </p>
+                            </div>
+                            <div class="to-do-icon-container">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="placard-container">
+                            <div class="design-card-one">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design">
+                                            <p> DESIGN </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <div class="design-image">
+                                        <img src="./Images/major image.avif" alt="major">
+                                    </div>
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Customer Journey Mapping </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Kidszone </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="fourth-upper">
+                                        <div class="status-container">
+                                            <div class="status-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container">
+                                                <p> Medium </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 25 October </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                        <div class="third-avatar lower-avatar">
+                                            <img src="./Images/avt 3.avif" alt="avt-three">
+                                        </div>
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 16 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 07 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="design-card-two">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design">
+                                            <p> DESIGN </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Customer Journey Mapping </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Kidszone </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-description">
+                                        <p> Micro interactions, loading and progress. </p>
+                                    </div>
+
+                                    <div class="fourth-upper">
+                                        <div class="status-container">
+                                            <div class="status-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container">
+                                                <p> Medium </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 11 November </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                        <div class="third-avatar lower-avatar">
+                                            <img src="./Images/avt 3.avif" alt="avt-three">
+                                        </div>
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 03 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 32 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="second-card-container">
+                        <div class="to-do-container in-progress">
+                            <div class="to-do-text-container">
+                                <p> In Progress </p>
+                            </div>
+                            <div class="to-do-icon-container">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="placard-container">
+
+                            <div class="design-card-two">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design dvpt">
+                                            <p> DEVELOPMENT </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Database Customization </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Uber </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-description">
+                                        <p> Customizing the databae for Uber's internal system, focusing on micro-interactions.  </p>
+                                    </div>
+
+                                    <div class="fourth-upper">
+                                        <div class="status-container">
+                                            <div class="status-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container">
+                                                <p> Medium </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 21 October </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 10 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 06 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="design-card-two">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design dvpt model">
+                                            <p> 3D MODELLING </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Fix Interior Planning </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Hotel Nice </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-description">
+                                        <p> Addressing layout and functional issues in the 3D modelling of interior spaces.  </p>
+                                    </div>
+
+                                    <div class="fourth-upper">
+                                        <div class="status-container low">
+                                            <div class="status-icon-container low">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container low">
+                                                <p> Low </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 13 October </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                        <div class="third-avatar lower-avatar">
+                                            <img src="./Images/avt 3.avif" alt="avt-three">
+                                        </div>
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 13 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 09 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="third-card-container">
+                        <div class="to-do-container done">
+                            <div class="to-do-text-container">
+                                <p> Done </p>
+                            </div>
+                            <div class="to-do-icon-container">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="placard-container">
+
+                            <div class="design-card-two">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design">
+                                            <p> DESIGN </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Redesign Wordpress Website </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Design Lab </p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="text-description">
+                                        <p> Redesigning the website for design lab to enhance usability and visual appeal. </p>
+                                    </div>
+    
+                                    <div class="fourth-upper">
+                                        <div class="status-container high">
+                                            <div class="status-icon-container high">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container high">
+                                                <p> High </p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 17 October </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+    
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                        <div class="third-avatar lower-avatar">
+                                            <img src="./Images/avt 3.avif" alt="avt-three">
+                                        </div>
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 02 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 29 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="design-card-two">
+                                <div class="upper-card-one">
+                                    <div class="first-upper">
+                                        <div class="first-upper-design marketing">
+                                            <p> MARKETING </p>
+                                        </div>
+                                        <div class="first-upper-icon">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="third-upper">
+                                        <div class="cx-journey-container">
+                                            <p> Facebook Ads Campaign </p>
+                                        </div>
+                                        <div class="zone-container">
+                                            <p> Plantify </p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="fourth-upper">
+                                        <div class="status-container medium">
+                                            <div class="status-icon-container medium">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="status-text-container medium">
+                                                <p> Medium </p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="date-container">
+                                            <div class="date-icon-container">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="date-text-container">
+                                                <p> 20 October </p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+    
+                                <div class="lower-card-one">
+                                    <div class="avatars-stacked">
+                                        <div class="first-avatar lower-avatar">
+                                            <img src="./Images/avt 1.avif" alt="avt-one">
+                                        </div> 
+                                        <div class="second-avatar lower-avatar">
+                                            <img src="./Images/avt 2.avif" alt="avt-two">
+                                        </div>
+                                    </div>
+                                    <div class="lower-right-card-one">
+                                        <div class="link-container">
+                                            <div class="link-icon-container">
+                                                <i class="fa-solid fa-link"></i>
+                                            </div>
+                                            <div class="link-text">
+                                                <p> 03 </p>
+                                            </div>
+                                        </div>
+                                        <div class="chat-container">
+                                            <div class="chat-icon-container">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </div>
+                                            <div class="chat-text">
+                                                <p> 17 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                       
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
